@@ -9,7 +9,7 @@ class Server{
 
         this.app = express()
 
-        this.port = process.env.port //El puerto de la aplicación
+        this.port = process.env.PORT //El puerto de la aplicación
          
         this.usuariosPath = '/api/usuarios'
         this.vehiculosPath = '/api/vehiculos'
